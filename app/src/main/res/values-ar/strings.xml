@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LinearTask</string>
+    <string name="userName">احمد حسن</string>
+    <string name="day">3 ساعات</string>
+    <string name="job">مهندس</string>
+    <string name="nationality">روسي</string>
+    <string name="workingCountry">المملكة المتحدة</string>
+    <string name="duration">منذ 5 ايام</string>
+    <string name="reviews">(150 مراجعة)</string>
+    <string name="ratingNumber">4.5</string>
+</resources>

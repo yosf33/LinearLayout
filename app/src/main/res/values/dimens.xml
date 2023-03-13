@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeTextTitle">16sp</dimen>
+    <dimen name="sizeTextDay">12sp</dimen>
+    <dimen name="sizeTextJob">12sp</dimen>
+    <dimen name="sizeTextNationality">12sp</dimen>
+    <dimen name="sizeTextWorkingCountry">13sp</dimen>
+    <dimen name="sizeTextDuration">12sp</dimen>
+    <dimen name="sizeTextReviews">12sp</dimen>
+    <dimen name="sizeTextRatingNumber">12sp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LinearTask</string>
+    <string name="userName">Ahmed hassan</string>
+    <string name="day">3 hr</string>
+    <string name="job">Engineer</string>
+    <string name="nationality">Russian</string>
+    <string name="workingCountry">UK</string>
+    <string name="duration">5 Days ago</string>
+    <string name="reviews">(150 Reviews)</string>
+    <string name="ratingNumber">4.5</string>
+</resources>

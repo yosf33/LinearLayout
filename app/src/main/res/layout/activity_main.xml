@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/round_rect_frame"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/round_rect_shape"
+        android:src="@drawable/daniel_burk" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="@font/dmsansbold"
+                android:gravity="start"
+                android:text="@string/userName"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sizeTextTitle" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingVertical="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/frame"
+                android:gravity="center"
+                android:text="@string/day"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sizeTextDay" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/jobAndNationalityText"
+                android:gravity="start"
+                android:text="@string/job"
+                />
+
+            <TextView
+                style="@style/jobAndNationalityText"
+                android:gravity="end"
+                android:text="@string/nationality"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dmsansregular"
+                    android:gravity="start"
+                    android:text="@string/workingCountry"
+                    android:textColor="@color/lightBlue"
+                    android:textSize="@dimen/sizeTextWorkingCountry" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dmsansregular"
+                android:gravity="end"
+                android:text="@string/duration"
+                android:textColor="@color/lightBlue"
+                android:textSize="@dimen/sizeTextDuration" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dmsansregular"
+                android:gravity="start"
+                android:text="@string/reviews"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sizeTextReviews" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/dmsansmedium"
+                android:text="@string/ratingNumber"
+                android:textColor="@color/black"
+                    android:textSize="@dimen/sizeTextRatingNumber" />
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
+                android:src="@drawable/ic_star" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
